@@ -1,4 +1,4 @@
-(function() {
+(function cdn() {
   window.onload = (event) => {
     console.log("cdn works");
     window.addEventListener("keydown", (event) => {
