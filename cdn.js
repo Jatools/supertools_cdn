@@ -1,8 +1,8 @@
 (function() {
   window.onload = (event) => {
-    console.log("cdn works!!!");
     window.addEventListener("keydown", (event) => {
       if (event.altKey) {
+        console.log("worked");
         window.parent.focus();
       }
     });
