@@ -1,5 +1,5 @@
 
-const tSync = {
+export const tSync = {
 	export: (moduleName) => {
 		let templates = tSync.collectTemplates(moduleName);
 		let styles = tSync.collectStyles(moduleName);
